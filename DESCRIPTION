@@ -1,0 +1,18 @@
+Package: TPM
+Type: Package
+Title: This package calculates the combined generalized U statistic for the 
+    association analysis between two similarity matrixes
+Version: 0.1.0
+Author: Wang Jinjuan, Li Qizhai
+Maintainer: Wang Jinjuan <wangjinjuan@bit.edu.cn>
+Depends:
+    MASS,
+    R(>= 3.0.1)
+Description: This package deals with the association analysis between two similarity
+    matrixes. The new test statistic is an omnibus test that combines a set of generalized
+    U statistics. Compared to the existing generalized U statistic, it is more sensitive 
+    in association detecting. 
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
