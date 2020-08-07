@@ -46,7 +46,10 @@ calcKerMat_Cen <- function(X){
 #'  multivariates.
 #'
 #' @return the p value of the generalized U statistic, i.e.,
-#'  $\frac 1n \text {tr}(EG)$, where $n$ is the sample size.
+#'  $tr(EG)/n$, where $n$ is the sample size.
+#'
+#' @importFrom stats pgamma
+#'
 #' @export
 #'
 #' @examples

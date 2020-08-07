@@ -14,7 +14,7 @@ multivariates.}
 }
 \value{
 the p value of the generalized U statistic, i.e.,
- $\frac 1n \text {tr}(EG)$, where $n$ is the sample size.
+ $tr(EG)/n$, where $n$ is the sample size.
 }
 \description{
 \code{zhangjtAppro} calculates the p value of the chi-squared-type mixtures
